@@ -20,7 +20,7 @@ body {
   max-width: 700px;
   max-height: px;
   position: relative;
-  border-radius: 15px;
+  border-radius: 7px;
   overflow: hidden;
 }
 @media (max-width: 753px) {
@@ -34,7 +34,7 @@ body {
 }
 
 .butão {
-  width: 100px;
+  width: 130px;
   height: 40px;
   background-color: white;
   border-radius: 50px;
@@ -44,6 +44,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  color: #000;
 }
 
 .box {
