@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100vh;
+  margin-inline: auto;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-inline: px;
+  padding-inline: 10px;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 600px;
+  max-height: px;
+}
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+.butão {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin-block: 50px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 250px;
+}
+
+.imagem {
+  margin: 35px;
+  margin-top: 40px;
+}
+
+.texto {
+  margin: 35px;
+}
+.titulo {
+  margin-inline: 35px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+#gold {
+  background-color: hsl(31, 77%, 52%);
+}
+#gold-color {
+  color: hsl(31, 77%, 52%);
+}
+#cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+#cyan-color {
+  color: hsl(184, 100%, 22%);
+}
+#verde {
+  background-color: hsl(179, 100%, 13%);
+}
+#verde-color {
+  color: hsl(179, 100%, 13%);
+}
